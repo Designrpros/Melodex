@@ -2,7 +2,7 @@
 
 import styled from "styled-components";
 import { useState } from "react";
-import Sidebar from "./sidebar";
+import Sidebar from "./Sidebar";
 
 const PageContainer = styled.div`
   width: 100%;
