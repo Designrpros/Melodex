@@ -23,19 +23,6 @@ const MainContent = styled.div`
   }
 `;
 
-const Header = styled.header`
-  background: #1a1a1a;
-  padding: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
-`;
-
-const HeaderTitle = styled.h1`
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0;
-`;
-
 const ContentContainer = styled.div`
   max-width: 1000px;
   margin: 0 auto;
@@ -72,10 +59,6 @@ export default function Index() {
     <PageContainer>
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       <MainContent>
-        <Header>
-          <HeaderTitle>Index</HeaderTitle>
-        </Header>
-
         <ContentContainer>
           <Section id="welcome">
             <SectionTitle>Welcome</SectionTitle>

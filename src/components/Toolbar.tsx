@@ -141,7 +141,11 @@ export default function Toolbar() {
         <Link href="/">
           <NavLink>Melodex</NavLink>
         </Link>
+
         <NavLinks>
+        <Link href="/index-page">
+            <NavLink>Index</NavLink>
+          </Link>
           <Link href="/basics">
             <NavLink>Basics</NavLink>
           </Link>
@@ -153,9 +157,6 @@ export default function Toolbar() {
           </Link>
           <Link href="/logic-pro">
             <NavLink>Logic Pro</NavLink>
-          </Link>
-          <Link href="/index-page">
-            <NavLink>Index</NavLink>
           </Link>
         </NavLinks>
         <BurgerIcon onClick={handleBurgerClick} $isOpen={isMenuOpen}>
@@ -170,6 +171,11 @@ export default function Toolbar() {
           <Link href="/">
             <MenuItem $isActive={false} onClick={handleTabClick}>
               Melodex
+            </MenuItem>
+          </Link>
+          <Link href="/index-page">
+            <MenuItem $isActive={false} onClick={handleTabClick}>
+              Index
             </MenuItem>
           </Link>
           <Link href="/basics">
@@ -190,11 +196,6 @@ export default function Toolbar() {
           <Link href="/logic-pro">
             <MenuItem $isActive={false} onClick={handleTabClick}>
               Logic Pro
-            </MenuItem>
-          </Link>
-          <Link href="/index-page">
-            <MenuItem $isActive={false} onClick={handleTabClick}>
-              Index
             </MenuItem>
           </Link>
         </MenuItemsWrapper>
