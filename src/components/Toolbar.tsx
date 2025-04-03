@@ -154,7 +154,7 @@ export default function Toolbar() {
           <Link href="/logic-pro">
             <NavLink>Logic Pro</NavLink>
           </Link>
-          <Link href="/index">
+          <Link href="/index-page">
             <NavLink>Index</NavLink>
           </Link>
         </NavLinks>
