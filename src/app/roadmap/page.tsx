@@ -90,107 +90,107 @@ const Roadmap = () => {
 
   const phases = [
     {
-      title: "Phase 0: The Reason for Building This",
+      title: "Phase 0: Why Melodex Exists",
       milestones: [
         {
-          title: "Learning Motivation",
+          title: "A Learning Hub for You",
           description:
-            "Create a personal hub to document our journey learning sound design and Logic Pro X, keeping it simple and focused on our progress.",
+            "Melodex was created to help you learn music production, focusing on sound design and Logic Pro X, with clear, easy-to-follow guides.",
         },
         {
-          title: "Self-Contained Resource",
+          title: "Everything You Need in One Place",
           description:
-            "Build a site with all info inside—no external links—covering music basics, sound design, and Logic Pro X usage.",
+            "We’ve built Melodex as a self-contained resource—no external links needed—so you can focus on learning without distractions.",
         },
       ],
     },
     {
-      title: "Phase 1: Foundation",
+      title: "Phase 1: Building the Foundation",
       milestones: [
         {
-          title: "Research & Setup",
+          title: "Starting with the Basics",
           description:
-            "Gather beginner resources on sound design and Logic Pro X. Set up a Next.js site with Styled Components and a black-and-white theme.",
+            "We laid the groundwork with core pages like Basics, Sound Design, and Logic Pro, giving you a solid starting point to explore music theory and production tools.",
         },
         {
-          title: "Initial Pages",
+          title: "A Clean, Focused Design",
           description:
-            "Create Home (Melodex), Basics, Sound Design, and Logic Pro pages with a 95vh hero section and consistent UI kit.",
+            "Melodex features a sleek black-and-white theme with hero sections on each page, making it easy for you to dive into the content without clutter.",
         },
       ],
     },
     {
-      title: "Phase 2: Core Learning Content",
+      title: "Phase 2: Deepening Your Knowledge",
       milestones: [
         {
-          title: "Basics Expansion",
+          title: "Music Theory Made Simple",
           description:
-            "Develop detailed sections on notes, rhythm, chords, scales, dynamics, and more, all with internal Logic Pro X examples.",
+            "The Basics page offers you detailed lessons on notes, rhythm, chords, scales, dynamics, and more, with examples you can try in Logic Pro X.",
         },
         {
-          title: "Sound Design Basics",
+          title: "Sound Design Essentials",
           description:
-            "Cover waveforms, synthesis, and effects with practical tips using Logic Pro X tools like ES2 and Retro Synth.",
+            "Learn how to create sounds from scratch on the Sound Design page, covering waveforms, synthesis, effects, and more, with practical tips to get you started.",
         },
         {
-          title: "Logic Pro Basics",
+          title: "Logic Pro X Skills",
           description:
-            "Explore interface, MIDI, and editing basics, practicing with drum beats and melodies in Logic Pro X.",
+            "Master Logic Pro X with guides on its interface, MIDI programming, editing, and more, helping you bring your music ideas to life.",
         },
       ],
     },
     {
-      title: "Phase 3: Website Structure",
+      title: "Phase 3: Making Learning Interactive",
       milestones: [
         {
-          title: "Core Pages with Subpages",
+          title: "Explore More with Subpages",
           description:
-            "Set up Basics with expanded sections, Sound Design with subpages (Basics, Synthesis, Effects, etc.), and Logic Pro with subpages (Interface, MIDI, etc.), all with internal content.",
+            "Dive deeper into Sound Design and Logic Pro with subpages for each topic, like synthesis techniques or MIDI programming, accessible via 'Dive Deeper' links.",
         },
         {
-          title: "Reusable Components",
+          title: "Interactive Content",
           description:
-            "Implement TopicCard components for collapsible content in Basics, Sound Design, and Logic Pro, enhancing interactivity.",
+            "We’ve added collapsible cards on Basics, Sound Design, and Logic Pro pages, so you can expand and explore topics at your own pace.",
         },
       ],
     },
     {
-      title: "Phase 4: Advanced Features",
+      title: "Phase 4: Enhancing Your Experience",
       milestones: [
         {
-          title: "Index Page",
+          title: "Quick Access with Index",
           description:
-            "Add an Index page with a responsive sidebar, compact text (0.75rem), and a dense overview of all learning topics, unique to this tab.",
+            "The Index page gives you a compact overview of all topics, with a sidebar to quickly jump between sections like sound waves or MIDI tips.",
         },
         {
-          title: "Subpage Navigation",
+          title: "Responsive Navigation",
           description:
-            "Enhance Sound Design and Logic Pro with subpages linked via 'Dive Deeper' inside collapsible cards, keeping navigation intuitive.",
+            "Navigate easily on any device—our toolbar is horizontal on desktop and switches to a sleek hamburger menu on mobile, with no distracting underlines.",
         },
         {
-          title: "Responsive Design",
+          title: "A Welcoming Home Page",
           description:
-            "Make the Index sidebar responsive—fixed on desktop, toggleable via hamburger menu on mobile (below 768px).",
+            "The Home page now guides you with a hero section and a detailed overview of what to expect, helping you find the right starting point for your learning journey.",
         },
       ],
     },
     {
-      title: "Phase 5: Refinement & Sharing",
+      title: "Phase 5: Growing with You",
       milestones: [
         {
-          title: "Polish & Debug",
+          title: "A Polished Experience",
           description:
-            "Fix hydration errors (e.g., Toolbar <a> nesting) and prop warnings (e.g., isOpen), ensuring a smooth experience across all pages.",
+            "We’ve fine-tuned Melodex to ensure it’s easy to use, with fixes for navigation, design, and performance, so you can focus on learning.",
         },
         {
-          title: "Launch",
+          title: "Ready for You to Explore",
           description:
-            "Deploy Melodex on Vercel as a personal portfolio, showcasing our sound design and Logic Pro X learning journey.",
+            "Melodex is now live on Vercel, ready for you to dive in and start your music production journey with a resource that’s built to grow with you.",
         },
         {
-          title: "Ongoing Updates",
+          title: "More to Come",
           description:
-            "Refine content with our latest insights, keeping the site a living resource for our music exploration.",
+            "We’ll keep adding new content and features based on your needs, ensuring Melodex remains a valuable tool for your music production growth.",
         },
       ],
     },

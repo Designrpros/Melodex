@@ -192,7 +192,7 @@ export default function Toolbar() {
               Logic Pro
             </MenuItem>
           </Link>
-          <Link href="/index">
+          <Link href="/index-page">
             <MenuItem $isActive={false} onClick={handleTabClick}>
               Index
             </MenuItem>
