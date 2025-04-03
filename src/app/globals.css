@@ -1,26 +1,23 @@
-@import "tailwindcss";
+/* app/globals.css */
 
+/* Define CSS variables for the dark theme */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000; /* Black */
+  --foreground: #ffffff; /* White */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Reset and enforce styles on html and body */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--background); /* Use variable for consistency */
+  color: var(--foreground); /* Use variable for consistency */
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Apply box-sizing globally */
+* {
+  box-sizing: border-box;
+  color: inherit; /* Ensure text inherits from body unless overridden */
 }
