@@ -17,7 +17,7 @@ const NavLinks = styled.div`
   gap: 1rem;
 `;
 
-const NavLink = styled.div` // Changed from styled.a to styled.div
+const NavLink = styled.div`
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -46,6 +46,9 @@ export default function Toolbar() {
         </Link>
         <Link href="/logic-pro">
           <NavLink>Logic Pro</NavLink>
+        </Link>
+        <Link href="/index">
+          <NavLink>Index</NavLink>
         </Link>
       </NavLinks>
     </ToolbarContainer>
