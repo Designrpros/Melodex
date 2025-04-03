@@ -15,11 +15,11 @@ const PageContainer = styled.div`
 
 const MainContent = styled.div`
   flex: 1;
-  margin-left: 200px; /* Offset for sidebar on desktop */
+  margin-left: 200px;
   padding: 1rem;
 
   @media (max-width: 768px) {
-    margin-left: 0; /* No offset on mobile when sidebar is hidden */
+    margin-left: 0;
   }
 `;
 
@@ -62,7 +62,7 @@ const SectionText = styled.p`
 `;
 
 export default function Index() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Closed by default on mobile
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);
@@ -143,7 +143,7 @@ export default function Index() {
           <Section id="interface">
             <SectionTitle>Logic Pro Interface</SectionTitle>
             <SectionText>
-              Tracks Area stacks clips, Mixer sets levels, Smart Controls tweak effects. Start a project in Logic Pro X: File New, add a synth track, and adjust a filter.
+              Tracks Area stacks clips, Mixer sets levels, Smart Controls tweak effects. Start a project in Logic Pro X: File, add a synth track, and adjust a filter.
             </SectionText>
           </Section>
 

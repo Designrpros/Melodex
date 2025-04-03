@@ -18,7 +18,7 @@ const SidebarContainer = styled.nav<{ isOpen: boolean }>`
   }
 
   @media (min-width: 769px) {
-    left: 0; /* Always visible on desktop */
+    left: 0;
   }
 `;
 
