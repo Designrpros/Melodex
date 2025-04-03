@@ -55,7 +55,7 @@ export default function Home() {
           priority /* Preload for faster rendering */
         />
         <TextOverlay>
-          <Heading>Welcome to Melodex 🎶</Heading>
+          <Heading>Welcome to Melodex</Heading>
           <Paragraph>
             Your interactive learning hub for music theory and production.
           </Paragraph>
