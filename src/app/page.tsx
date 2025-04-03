@@ -49,7 +49,7 @@ export default function Home() {
     <div>
       <HeroContainer>
         <HeroImage
-          src="/hero.jpg"
+          src="/images/Hero.jpg"
           alt="Melodex Hero Image"
           layout="fill"
           priority /* Preload for faster rendering */
