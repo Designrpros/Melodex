@@ -143,7 +143,7 @@ export default function Index() {
           <Section id="interface">
             <SectionTitle>Logic Pro Interface</SectionTitle>
             <SectionText>
-              Tracks Area stacks clips, Mixer sets levels, Smart Controls tweak effects. Start a project in Logic Pro X: File, add a synth track, and adjust a filter.
+              Tracks Area stacks clips, Mixer sets levels, Smart Controls tweak effects. Start a project in Logic Pro X: File &gt; New, add a synth track, and adjust a filter.
             </SectionText>
           </Section>
 

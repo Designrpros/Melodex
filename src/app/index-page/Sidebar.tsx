@@ -66,7 +66,7 @@ interface SidebarProps {
   toggleSidebar: () => void;
 }
 
-export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
+const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   return (
     <SidebarContainer isOpen={isOpen}>
       <SidebarHeader>
@@ -87,4 +87,6 @@ export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
       <SidebarLink href="#recording">Recording</SidebarLink>
     </SidebarContainer>
   );
-}
+};
+
+export default Sidebar;
