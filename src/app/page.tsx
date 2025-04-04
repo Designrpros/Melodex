@@ -124,6 +124,9 @@ export default function Home() {
               <strong>Basics</strong>: Start with the fundamentals of music theory—learn about notes, rhythm, chords, scales, dynamics, and more, all explained with examples you can try in Logic Pro X.
             </ListItem>
             <ListItem>
+              <strong>Roadmap</strong>: Follow a structured path to master music production—from basics to advanced skills—with phases, exams, and practical tips to guide your learning journey.
+            </ListItem>
+            <ListItem>
               <strong>Sound Design</strong>: Dive into the art of creating sounds from scratch. Explore waveforms, synthesis, effects, sampling, and layering, with detailed subpages to deepen your understanding.
             </ListItem>
             <ListItem>
@@ -131,9 +134,6 @@ export default function Home() {
             </ListItem>
             <ListItem>
               <strong>Index</strong>: Get a quick, compact overview of everything on Melodex. This page summarizes key concepts in bite-sized sections, perfect for a refresher or quick reference.
-            </ListItem>
-            <ListItem>
-              <strong>Roadmap</strong>: See the journey behind Melodex—our development process, from initial setup to advanced features, and what’s coming next.
             </ListItem>
           </SectionList>
           <SectionText>
