@@ -133,6 +133,9 @@ export default function Home() {
               <strong>Logic Pro</strong>: Master Logic Pro X with guides on its interface, MIDI programming, editing, recording, automation, and mixing, complete with subpages for each topic.
             </ListItem>
             <ListItem>
+              <strong>Awesome</strong>: Explore curated tools, tutorials, and resources to enhance your music production skills, from music theory guides to sound design libraries and Logic Pro X tips.
+            </ListItem>
+            <ListItem>
               <strong>Index</strong>: Get a quick, compact overview of everything on Melodex. This page summarizes key concepts in bite-sized sections, perfect for a refresher or quick reference.
             </ListItem>
           </SectionList>
