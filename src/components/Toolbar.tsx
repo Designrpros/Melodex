@@ -21,10 +21,29 @@ const ToolbarContainer = styled.div`
 
 const NavLinks = styled.div`
   display: flex;
-  gap: 1rem; /* Reduced gap to fit more tabs */
+  gap: 1rem;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping */
+  scrollbar-width: thin; /* Optional: Customize scrollbar */
+  scrollbar-color: rgba(255, 255, 255, 0.5) transparent; /* Optional: Style scrollbar */
 
-  @media (max-width: 900px) { /* Adjusted breakpoint for more tabs */
-    display: none; /* Hide on mobile */
+  &::-webkit-scrollbar {
+    height: 5px; /* Thin scrollbar */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  @media (max-width: 900px) {
+    display: none;
+      padding-top: 2rem; /* Adjusted padding for better alignment */
+
   }
 `;
 
@@ -183,7 +202,10 @@ export default function Toolbar() {
           <Link href="/logic-pro">
             <NavLink>Logic Pro</NavLink>
           </Link>
-          <Link href="/awesome">
+          <Link href="/keyboard-shortcuts">
+            <NavLink>Shortcuts</NavLink>
+          </Link>
+          <Link href="/resources">
             <NavLink>Resources</NavLink>
           </Link>
           <Link href="/index-page">
@@ -199,11 +221,6 @@ export default function Toolbar() {
 
       <Menu $isMenuOpen={isMenuOpen}>
         <MenuItemsWrapper>
-          <Link href="/">
-            <MenuItem $isActive={false} onClick={handleTabClick}>
-              Melodex
-            </MenuItem>
-          </Link>
           <Link href="/basics">
             <MenuItem $isActive={false} onClick={handleTabClick}>
               Basics
@@ -224,7 +241,12 @@ export default function Toolbar() {
               Logic Pro
             </MenuItem>
           </Link>
-          <Link href="/awesome">
+          <Link href="/keyboard-shortcuts">
+            <MenuItem $isActive={false} onClick={handleTabClick}>
+              Shortcuts
+            </MenuItem>
+          </Link>
+          <Link href="/resources">
             <MenuItem $isActive={false} onClick={handleTabClick}>
               Resources
             </MenuItem>
